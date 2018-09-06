@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LHRAlerViewDemo_Example' do
+  pod 'LHRAlerViewDemo', :path => '../'
+
+  target 'LHRAlerViewDemo_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
