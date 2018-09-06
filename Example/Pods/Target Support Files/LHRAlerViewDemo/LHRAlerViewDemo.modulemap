@@ -1,0 +1,6 @@
+framework module LHRAlerViewDemo {
+  umbrella header "LHRAlerViewDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

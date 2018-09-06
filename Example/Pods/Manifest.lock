@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LHRAlerViewDemo (1.0.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LHRAlerViewDemo (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LHRAlerViewDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LHRAlerViewDemo: 47661faeb4c74bba52fed23559b3fe1b5baaecbf
+
+PODFILE CHECKSUM: 5e9dd5b0878a87786fe98fb12c6613a47bb63138
+
+COCOAPODS: 1.5.3
