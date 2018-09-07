@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LHRAlerViewDemo
 
 [![CI Status](https://img.shields.io/travis/lihairui/LHRAlerViewDemo.svg?style=flat)](https://travis-ci.org/lihairui/LHRAlerViewDemo)
@@ -27,3 +28,7 @@ lihairui, hairui.li@meiduimall.com
 ## License
 
 LHRAlerViewDemo is available under the MIT license. See the LICENSE file for more info.
+=======
+# LHRPopview
+打包上传的流程
+>>>>>>> aa41357949cf8f856d70c9450d71c880e4382baa
