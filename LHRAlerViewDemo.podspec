@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LHRAlerViewDemo'
-  s.version          = '2.0.0'
+  s.version          = '2.0.2'
   s.summary          = 'A short description of LHRAlerViewDemo.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here. 弹出视图
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lihairui' => 'LiHRIT@163.com' }
-  s.source           = { :git => 'https://github.com/LiHRIT/LHRPopview.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/LiHRIT/LHRPopview.git', :tag => '2.0.2' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here. 弹出视图
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'AFNetworking', '~> 2.3'
 end
