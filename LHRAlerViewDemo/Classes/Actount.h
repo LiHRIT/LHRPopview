@@ -10,4 +10,5 @@
 
 @interface Actount : NSObject
 @property (assign,nonatomic) int banlabce;
+@property (assign, nonatomic) NSInteger moneynum;
 @end
