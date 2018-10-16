@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LHRAlerViewDemo'
-  s.version          = '2.0.5'
+  s.version          = '2.0.6'
   s.summary          = 'A short description of LHRAlerViewDemo.'
 
 # This description is used to generate tags and improve search results.

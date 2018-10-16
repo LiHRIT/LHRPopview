@@ -64,8 +64,10 @@
 		A1D737D6D3D781E98ABFEC6EE0C095EB /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = B53352B3ACA92B8E81A1F27DA1C3E91A /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685E1A2D5CA9D38EF58355F4E5A1A174 /* FBSnapshotTestController.m */; };
 		A521EBA27C8718B842733DE0986ED5E0 /* LHRAlerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 061EB25FA749646BEE7A40A512BEA926 /* LHRAlerView.m */; };
-		AFCA2C0D2175B224003CDFEB /* FirstViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AFCA2C0A2175B224003CDFEB /* FirstViewController.h */; };
-		AFCA2C0E2175B224003CDFEB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA2C0B2175B224003CDFEB /* FirstViewController.m */; };
+		AFCA2C122175B39A003CDFEB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA2C0F2175B399003CDFEB /* FirstViewController.m */; };
+		AFCA2C132175B39A003CDFEB /* FirstViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AFCA2C102175B39A003CDFEB /* FirstViewController.h */; };
+		AFCA2C172175B3B6003CDFEB /* secViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AFCA2C142175B3B6003CDFEB /* secViewController.h */; };
+		AFCA2C182175B3B6003CDFEB /* secViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA2C152175B3B6003CDFEB /* secViewController.m */; };
 		B2C535FEBEE83B3ED5EA78CB848A964B /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A02824337F68AA70969FBA3D59E0BDC /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5D4EBCD83C85BF560908DC73AFCC97A /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8538AE6877B5CDA4673EBFEBD57383D7 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3354745C483403DAA9B55DF5C54EC2D7 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -206,9 +208,12 @@
 		9CF3C96983451EAE8260296BDC8B3768 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		A6110B63CFA81453C27143ACF64249E5 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		AD0A289527E865232A0143C45CE98EC0 /* Pods_LHRAlerViewDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LHRAlerViewDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFCA2C0A2175B224003CDFEB /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		AFCA2C0B2175B224003CDFEB /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		AFCA2C0C2175B224003CDFEB /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		AFCA2C0F2175B399003CDFEB /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = LHRAlerViewDemo/Classes/FirstViewController.m; sourceTree = "<group>"; };
+		AFCA2C102175B39A003CDFEB /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = LHRAlerViewDemo/Classes/FirstViewController.h; sourceTree = "<group>"; };
+		AFCA2C112175B39A003CDFEB /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FirstViewController.xib; path = LHRAlerViewDemo/Classes/FirstViewController.xib; sourceTree = "<group>"; };
+		AFCA2C142175B3B6003CDFEB /* secViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = secViewController.h; path = LHRAlerViewDemo/Classes/secViewController.h; sourceTree = "<group>"; };
+		AFCA2C152175B3B6003CDFEB /* secViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = secViewController.m; path = LHRAlerViewDemo/Classes/secViewController.m; sourceTree = "<group>"; };
+		AFCA2C162175B3B6003CDFEB /* secViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = secViewController.xib; path = LHRAlerViewDemo/Classes/secViewController.xib; sourceTree = "<group>"; };
 		B2B5CBE015586CD81DF161D76FA7A61E /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		B405EB093F0FF6B9D9AB8719A39DFD96 /* LHRAlerViewDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LHRAlerViewDemo-umbrella.h"; sourceTree = "<group>"; };
 		B53352B3ACA92B8E81A1F27DA1C3E91A /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
@@ -445,6 +450,12 @@
 		794BF2CE868F066EEB8E38BCE3E22476 /* LHRAlerViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AFCA2C102175B39A003CDFEB /* FirstViewController.h */,
+				AFCA2C142175B3B6003CDFEB /* secViewController.h */,
+				AFCA2C152175B3B6003CDFEB /* secViewController.m */,
+				AFCA2C162175B3B6003CDFEB /* secViewController.xib */,
+				AFCA2C0F2175B399003CDFEB /* FirstViewController.m */,
+				AFCA2C112175B39A003CDFEB /* FirstViewController.xib */,
 				E24958CB4A03C2379A699205A4B9279C /* Actount.h */,
 				1D15E216129AE08ACC978EA7F0A676E7 /* Actount.m */,
 				35B4699D2E636E579B19E4454DE2FD0F /* LHRAlerView.h */,
@@ -456,9 +467,6 @@
 				E3AC30C4CF47E47EED2B607243CDBC04 /* UIView+Extension.m */,
 				11FCA34C17F0AB96C163B5057DDDE6C9 /* Pod */,
 				C61B226C765EA3F37FB7AE2CCA4EFF29 /* Support Files */,
-				AFCA2C0A2175B224003CDFEB /* FirstViewController.h */,
-				AFCA2C0B2175B224003CDFEB /* FirstViewController.m */,
-				AFCA2C0C2175B224003CDFEB /* FirstViewController.xib */,
 			);
 			name = LHRAlerViewDemo;
 			path = ../..;
@@ -649,7 +657,6 @@
 				95B31D9D71F9E540216811163394F255 /* UIImage+AFNetworking.h in Headers */,
 				300F34DBD1EAD72F220D42721638201C /* UIImageView+AFNetworking.h in Headers */,
 				46003CFB00EE9EDB7751E5D9515CC8D4 /* UIKit+AFNetworking.h in Headers */,
-				AFCA2C0D2175B224003CDFEB /* FirstViewController.h in Headers */,
 				5286E996186A50899A9B6E300D65015B /* UIProgressView+AFNetworking.h in Headers */,
 				D65865C21F7F118FD65704B9D62D94BE /* UIRefreshControl+AFNetworking.h in Headers */,
 				25E58152597C474DC6A3F6C5CA90CADE /* UIWebView+AFNetworking.h in Headers */,
@@ -686,7 +693,9 @@
 				32C75B6E58F5FE987411514FD6941CE8 /* Actount.h in Headers */,
 				5DCC645887A6CD91E14BEDC5891A4D89 /* LHRAlerView.h in Headers */,
 				C957B7288C8E6DF824B2144B6BCB6F33 /* LHRAlerViewDemo-umbrella.h in Headers */,
+				AFCA2C172175B3B6003CDFEB /* secViewController.h in Headers */,
 				8AE8FEB4EDB6D4C9C7E56F9EF2A08EAF /* Person.h in Headers */,
+				AFCA2C132175B39A003CDFEB /* FirstViewController.h in Headers */,
 				8345A2E91AC916A9F06997D011AEDA00 /* UIView+Extension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -843,8 +852,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFCA2C182175B3B6003CDFEB /* secViewController.m in Sources */,
 				13344910A8725B7DB81FDA07F2052CCC /* Actount.m in Sources */,
 				A521EBA27C8718B842733DE0986ED5E0 /* LHRAlerView.m in Sources */,
+				AFCA2C122175B39A003CDFEB /* FirstViewController.m in Sources */,
 				5209C8035793390385BF9763D325CAED /* LHRAlerView.xib in Sources */,
 				823AB0B5BAFAE35760895A2B8C8DEABA /* LHRAlerViewDemo-dummy.m in Sources */,
 				FA75F7DB21715C485F26B3E5737470F7 /* Person.m in Sources */,
@@ -860,7 +871,6 @@
 				07CCA2377CCFDD58EB8F0738D9D88917 /* AFHTTPRequestOperationManager.m in Sources */,
 				452BE369A0DEEFCAD4A522BA15C3EC53 /* AFHTTPSessionManager.m in Sources */,
 				CF0E8D70D0E6ECB756F7029AE0842E17 /* AFNetworkActivityIndicatorManager.m in Sources */,
-				AFCA2C0E2175B224003CDFEB /* FirstViewController.m in Sources */,
 				0C1869A00421DFBA1C82AF772E2F13BE /* AFNetworking-dummy.m in Sources */,
 				0DD519176F5025EA203D9DD53C7456C3 /* AFNetworkReachabilityManager.m in Sources */,
 				6FC4B7B0F5119FBBD5120C275A72F9B3 /* AFSecurityPolicy.m in Sources */,
