@@ -25,7 +25,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - LHRAlerViewDemo (2.0.3):
+  - LHRAlerViewDemo (2.0.4):
     - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
@@ -44,7 +44,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  LHRAlerViewDemo: 01a44a0cdf1e4b06921896853ac3dfcbd914789c
+  LHRAlerViewDemo: 8ae99216db60f1eeeed9926c7363b4d3f9d593fc
 
 PODFILE CHECKSUM: 5e9dd5b0878a87786fe98fb12c6613a47bb63138
 

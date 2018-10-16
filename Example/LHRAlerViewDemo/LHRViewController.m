@@ -9,6 +9,10 @@
 #import "LHRViewController.h"
 
 #import "LHRAlerView.h"
+#import "Actount.h"
+#import "Person.h"
+
+
 #define kZLPhotoBrowserBundle [NSBundle bundleForClass:[self class]]
 @interface LHRViewController ()
 
@@ -20,6 +24,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    Actount *act=[[Actount alloc]init];
+    act.moneynum=20;
+    Person *people=[[Person alloc]init];
+    people.name=@"李海瑞";
+    
+    
 }
 - (IBAction)popbtnclick:(UIButton *)sender{
     //LHRAlerView *alert = [[[NSBundle mainBundle] loadNibNamed:@"LHRAlerView" owner:nil options:nil] firstObject];
