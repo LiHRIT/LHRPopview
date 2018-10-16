@@ -10,7 +10,9 @@
 #endif
 #endif
 
+#import "Actount.h"
 #import "LHRAlerView.h"
+#import "Person.h"
 #import "UIView+Extension.h"
 
 FOUNDATION_EXPORT double LHRAlerViewDemoVersionNumber;
