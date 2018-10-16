@@ -12,7 +12,6 @@
 #import "Actount.h"
 #import "Person.h"
 
-
 #define kZLPhotoBrowserBundle [NSBundle bundleForClass:[self class]]
 @interface LHRViewController ()
 

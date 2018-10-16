@@ -11,8 +11,10 @@
 #endif
 
 #import "Actount.h"
+#import "FirstViewController.h"
 #import "LHRAlerView.h"
 #import "Person.h"
+#import "secViewController.h"
 #import "UIView+Extension.h"
 
 FOUNDATION_EXPORT double LHRAlerViewDemoVersionNumber;
