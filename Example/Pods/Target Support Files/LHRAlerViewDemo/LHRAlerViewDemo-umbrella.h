@@ -13,6 +13,7 @@
 #import "Actount.h"
 #import "LHRAlerView.h"
 #import "Person.h"
+#import "Person的副本.h"
 #import "UIView+Extension.h"
 
 FOUNDATION_EXPORT double LHRAlerViewDemoVersionNumber;
